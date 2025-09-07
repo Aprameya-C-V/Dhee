@@ -4,6 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dhee</title>
+    <meta name="description" content="Dhee — AI tutor with regional personalization, low-data, auto visuals, and a multilingual UI." />
+    <meta property="og:title" content="Dhee — AI Tutor for Every Region" />
+    <meta property="og:description" content="Regional personalization, low-data, auto visuals, multilingual UI." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%232563eb"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="white">D</text></svg>' />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -55,10 +60,10 @@
               <p class="text-xs text-slate-500">AI-Powered Regional & Sub-Regional Personalized Tutor</p>
             </div>
           </div>
-          <div class="flex items-center gap-2 text-xs text-slate-500">
-            <span class="hidden sm:block">Low-bandwidth optimized</span>
-            <span class="w-2 h-2 rounded-full bg-green-500"></span>
-          </div>
+          <nav class="flex items-center gap-4 text-sm text-slate-600">
+            <a href="https://github.com/Aprameya-C-V/Dhee" target="_blank" class="hidden sm:inline hover:text-slate-900">GitHub</a>
+            <a href="/app.html" class="inline-flex items-center bg-primary-600 hover:bg-primary-700 text-white rounded-xl px-4 py-2 font-semibold shadow-soft">Open App</a>
+          </nav>
         </div>
       </header>
 
@@ -66,8 +71,8 @@
       <main class="flex-1">
         <div class="max-w-7xl mx-auto p-6 lg:p-10">
           <section class="text-center mb-10">
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-800">Dhee — AI Tutor for Every Region</h2>
-            <p class="mt-3 text-slate-600 max-w-2xl mx-auto">Regional and sub-regional personalization, low-data optimization, auto-visuals, and a multilingual UI to make learning accessible everywhere.</p>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-800">Dhee — AI Tutor</h2>
+            <p class="mt-3 text-slate-600 max-w-2xl mx-auto">Personalized by region. Low data. Auto visuals. Multilingual UI.</p>
             <div class="mt-6 flex flex-col sm:flex-row justify-center gap-3">
               <select id="landingUiLanguage" class="w-full sm:w-72 border rounded-xl px-3 py-2 bg-white focus:ring-2 focus:ring-primary-500">
                 <option value="en">English</option>
@@ -101,32 +106,33 @@
             </div>
           </section>
 
-          <section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+          <section id="features" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
             <div class="glass rounded-2xl p-5 shadow-soft">
-              <h3 class="text-lg font-semibold text-slate-800">Regional + Sub-Regional Personalization</h3>
-              <p class="text-sm text-slate-600 mt-1">Local languages, examples, and curricula alignment (e.g., NCERT, BNCC) with cultural sensitivity.</p>
+              <h3 class="text-lg font-semibold text-slate-800">Personalized by region</h3>
+              <p class="text-sm text-slate-600 mt-1">Local languages and examples.</p>
             </div>
             <div class="glass rounded-2xl p-5 shadow-soft">
               <h3 class="text-lg font-semibold text-slate-800">Auto Visuals (See)</h3>
-              <p class="text-sm text-slate-600 mt-1">Illustrations auto-generated after each lesson. English-only or text-free diagrams for clarity.</p>
+              <p class="text-sm text-slate-600 mt-1">English-only or text-free diagrams.</p>
             </div>
             <div class="glass rounded-2xl p-5 shadow-soft">
               <h3 class="text-lg font-semibold text-slate-800">Low-Data Mode</h3>
-              <p class="text-sm text-slate-600 mt-1">Mobile-first, text-focused responses with minimal media and ASCII diagrams when helpful.</p>
+              <p class="text-sm text-slate-600 mt-1">Text-first, mobile-friendly.</p>
             </div>
             <div class="glass rounded-2xl p-5 shadow-soft">
-              <h3 class="text-lg font-semibold text-slate-800">Streaming Tutor</h3>
-              <p class="text-sm text-slate-600 mt-1">Groq-powered real-time tutoring with Markdown formatting and 3–4 worked examples.</p>
+              <h3 class="text-lg font-semibold text-slate-800">Streaming tutor</h3>
+              <p class="text-sm text-slate-600 mt-1">Markdown lessons with examples.</p>
             </div>
             <div class="glass rounded-2xl p-5 shadow-soft">
-              <h3 class="text-lg font-semibold text-slate-800">Presets & Lesson Series</h3>
-              <p class="text-sm text-slate-600 mt-1">One-click lesson sequences in Numeracy, STEM, Digital Literacy, and AI Literacy.</p>
+              <h3 class="text-lg font-semibold text-slate-800">Presets</h3>
+              <p class="text-sm text-slate-600 mt-1">One‑click lesson sequences.</p>
             </div>
             <div class="glass rounded-2xl p-5 shadow-soft">
               <h3 class="text-lg font-semibold text-slate-800">Multilingual UI</h3>
-              <p class="text-sm text-slate-600 mt-1">Switch interface language across major Indian languages and more. RTL supported where needed.</p>
+              <p class="text-sm text-slate-600 mt-1">Major Indian languages + more.</p>
             </div>
           </section>
+          
         </div>
       </main>
 
