@@ -1,0 +1,16 @@
+static/generated/gen_1757187608449_0.png
+static/generated/gen_1757187616320_0.png
+static/generated/gen_1757188673721_0.png
+static/generated/gen_1757188707035_0.png
+static/generated/gen_1757231256815_0.png
+static/generated/gen_1757231355280_0.png
+static/generated/gen_1757231445693_0.png
+static/generated/gen_1757231473670_0.png
+backend/app/__pycache__/main.cpython-313.pyc
+backend/app/__pycache__/models.cpython-313.pyc
+backend/app/core/__pycache__/settings.cpython-313.pyc
+backend/app/personalization/__pycache__/config.cpython-313.pyc
+backend/app/personalization/__pycache__/engine.cpython-313.pyc
+backend/app/routers/__pycache__/chat.cpython-313.pyc
+backend/app/routers/__pycache__/images.cpython-313.pyc
+backend/app/utils/__pycache__/groq_client.cpython-313.pyc
